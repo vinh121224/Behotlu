@@ -1,0 +1,31 @@
+
+ .product{
+     height:300;
+     width:200;
+ }
+ 
+ .haha{
+     font-weight: bold;
+ }
+ .product-div{
+      border: black ridge;
+      margin-right: 1098px;  
+      
+ }
+ .logo{
+     height: 60px;
+     width: 60px;
+     margin: 0px 50px;
+     
+ }
+ body{
+     color: #555;
+ }
+ h1{
+     color: #333;
+     text-align: center;
+     margin-bottom:100px ;
+ }
+    
+  
+   
