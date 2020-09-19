@@ -9,7 +9,7 @@
  }
  .product-div{
       border: black ridge;
-      margin-right: 1098px;  
+
       
  }
  .logo{
@@ -26,6 +26,44 @@
      text-align: center;
      margin-bottom:100px ;
  }
+
+ .flex-container{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+.menu{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
-  
-   
+}
+
+.title{
+    text-align: center;
+}
+
+#footer-container{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.mindx{
+    margin-right: 20px;
+}
+
+.gop{
+    background-color: lightgray;
+}
+
+.poster{
+    text-align: center;
+    margin: 10px ;
+  width: 1470px;
+  height: 900px;
+    
+    
+}
