@@ -8,7 +8,9 @@
      font-weight: bold;
  }
  .product-div{
-      border: black ridge;
+      border: white solid;
+      margin:100px 45px;
+      width: 400px;
 
       
  }
@@ -53,6 +55,8 @@
 
 .mindx{
     margin-right: 20px;
+    
+
 }
 
 .gop{
@@ -67,3 +71,37 @@
     
     
 }
+
+.product-div-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center ;
+}
+
+.product-display{
+    border: white solid;
+    margin:100px ;
+    width: 70%;
+
+}
+
+.product-describe{
+    width: 30%;
+    padding-left: 10px;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.product-image{
+        width: 800px;
+        height: 800px;
+}
+
+select{
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px solid;
+}
+
