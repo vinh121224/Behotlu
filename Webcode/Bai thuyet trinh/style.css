@@ -226,3 +226,17 @@ h4{
 }
 
 h2{color: white;}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    padding:0px 60px; 
+}
+
+.footer-container >div> h2{
+    color: black;
+}
+.footer-container >div> p{
+    color: black;
+}
