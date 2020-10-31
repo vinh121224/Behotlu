@@ -236,3 +236,9 @@ img {
 .info{
     margin-top: 200px;
 }
+
+.ten{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
