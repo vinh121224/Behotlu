@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>nhan de sap xep tang dan</p>
+    <button onclick="TangDan()">xep tang dan</button>
+    <p id="tang dan"></p>
+
+    <p>dao nguoc</p>
+    <p>nhan de dao nguoc</p>
+    <button onclick="myFunction()">dao nguoc</button>
+    <p id="dao nguoc"></p>
+
+    
+    <script>
+        let A= ["1","21","13","44","34","67","54","76","98","85","14","22","36","48","59"]
+        document.getElementById("tang dan").innerHTML = A;
+        function TangDan(){
+            A.sort();
+            document.getElementById("tang dan").innerHTML=A;
+        }
+        
+       
+        let B= ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"]
+        document.getElementById("dao nguoc").innerHTML=B;
+        function myFunction(){
+            B.reverse();
+            document.getElementById("dao nguoc").innerHTML=B;
+        }
+
+        
+        
+
+    </script>
+</body>
+</html>

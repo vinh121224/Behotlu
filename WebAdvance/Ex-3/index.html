@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="nice-body">
+    <ul id="list"></ul>
+    <p id="def">abc</p>
+    <script>
+        console.dir(def)
+        document.getElementById("def").innerHTML="qwer"
+        // let body1 = document.getElementById("nice-body");
+        // let ToDoJob1= document.createElement("h1") ;
+        // ToDoJob1.innerHTML="Lap trinh trang web";
+        // body1.appendChild(ToDoJob1);
+        
+        // let ToDoJob2 = document.createElement("h1");
+        // ToDoJob2.innerHTML="Mua day sac";
+        // body1.appendChild(ToDoJob2);
+        
+        // let ToDoJob3 = document.createElement("h1");
+        // ToDoJob3.innerHTML="Sac dien thoai";
+        // body1.appendChild(ToDoJob3);
+        
+        // let ToDoJob4=document.createElement("h1");
+        // ToDoJob4.innerHTML="Ve nha";
+        // body1.appendChild(ToDoJob4);
+
+          let ViecCanLam=["Lap trinh trang web","mua day sac","sac dien thoai","Ve nha"];
+        //console.log(ViecCanLam)
+
+        //Create them 1 phan tu vao 1 mang
+        //let viecdautien = ViecCanLam.push("di Cho");
+        //console.log(ViecCanLam)
+
+        //Read
+        //console.log(ViecCanLam[3])
+
+        //Update
+        //console.log(ViecCanLam[0] = "Ban xe dap");
+        
+        //Delete
+        //ViecCanLam.splice(2,2);
+        //console.log(ViecCanLam)
+        
+        //Tạo mảng
+        // 
+        // let Todolist1= document.createElement("li");
+        // Todolist1.innerHTML="Di cho";
+        // list.appendChild(Todolist1)
+
+        // let Todolist2=document.createElement("li");
+        // Todolist2.innerHTML="Nau com";
+        // list.appendChild(Todolist2)
+
+        // let Todolist3=document.createElement("li");
+        // Todolist3.innerHTML="Giat do";
+        // list.appendChild(Todolist3)
+
+        // let Todolist4=document.createElement("li");
+        // Todolist4.innerHTML="Quet nha";
+        // list.appendChild(Todolist4)
+
+        // let Todolist5=document.createElement("li");
+        // Todolist5.innerHTML="Lau nha";
+        // list.appendChild(Todolist5)
+
+    
+            for (let i =0; i<ViecCanLam.length; i++){
+                let list=document.getElementById("list")
+                let list1=document.createElement("li")
+                list1.innerHTML= ViecCanLam[i];
+                list.appendChild(list1)
+            }
+        
+    </script>
+
+</body>
+</html>

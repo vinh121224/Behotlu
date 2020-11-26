@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Xin chao cac ban</h1>
+    <img id="lightbuld" src="./img/off.jpg" alt="">
+    <button onclick="TurnOn()">Turn On</button>
+    <button onclick="TurnOff()">Turn Off</button>
+    <script>
+    let lightbuld=document.getElementById("lightbuld")
+    let TurnOn =function()
+    {
+        lightbuld.src="./img/on.jpg"
+    }
+    let TurnOff = function()
+    {
+        lightbuld.src="./img/off.jpg"
+    }
+    </script>
+<br>
+    <img id="square" src="./img/red.png" alt="">
+    <button onclick="RED()">Red</button>
+    <button onclick="BLUE()">Blue</button>
+    <button onclick="YELLOW()">Yellow</button>
+    <button onclick="GREEN()">Green</button>
+    <script>
+    let RED=function()
+    {
+        square.src="./img/red.png"
+    }
+    let BLUE=function()
+    {
+        square.src="./img/blue.png"
+    }
+    let YELLOW=function()
+    {
+        square.src="./img/yellow.png"
+    }
+    let GREEN=function()
+    {
+        square.src="./img/green.png"
+    }
+
+    //do C sang do F
+    let C;
+    let F;
+    let changeF=function(C)
+    {
+        F=C*1.8 + 32;
+    }
+    changeF(55)
+    </script>
+</body>
+</html>
