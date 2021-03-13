@@ -1,16 +1,13 @@
-body{
-    background-image: url("https://ak.picdn.net/shutterstock/videos/30049369/thumb/1.jpg");
+body {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/30049369/thumb/1.jpg");
 }
-.nav-bar{
-    
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    margin: 0 60px ;
-    
+.nav-bar {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0 60px;
 }
-.nav-bar a{
-   
+.nav-bar a {
   color: white;
   display: flex;
   align-items: center;
@@ -18,297 +15,324 @@ body{
   text-decoration: none;
   font-size: 20px;
   margin-right: 20px;
-  transition-delay:0.1s ;
+  transition-delay: 0.1s;
 }
-.nav-bar :hover{
-    background-color: rgb(100, 182, 237);
-    transition-delay:0.1s ;
+.nav-bar :hover {
+  background-color: rgb(100, 182, 237);
+  transition-delay: 0.1s;
 }
-.Home{
-    background-color:rgb(100, 182, 237) ;
+.Home {
+  background-color: rgb(100, 182, 237);
 }
-.dangki{
-    text-align: right;
-    margin: 0 60px 15px 0;
-    
+.dangki {
+  text-align: right;
+  margin: 0 60px 15px 0;
 }
-.dangki button{
-    background-color: black;
-    border: none;
-    
-    opacity: 0.4;
+.dangki button {
+  background-color: black;
+  border: black;
+  opacity: 0.4;
 }
-.dangki button p{
-    font-weight: bold;
-    color:  white;
+.dangki button p {
+  font-weight: bold;
+  color: white;
 }
-.dangki a{
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
+.dangki a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
 }
-.dangki a:hover{
-    color: blue;
+.dangki a:hover {
+  color: blue;
 }
 
-.Title{
-    text-align: center;
-    font-size: 28px;
-    color:white;
-    font-family: fantasy;    
+.Title {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  font-family: fantasy;
 }
-.Title img{
-    width: 300px;
-    height: 85px;
-}
-
-.Hot{
-    color: rgb(100, 182, 237) ;
-    font-family: monospace;
-    font-size: 50px;
-}
-.Games{
-    color: white ;
-    font-family: monospace;
-    font-size: 50px;
-}
-.gamehot{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 60px;
-}
-.gamefree{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-.Free{
-    color: rgb(100, 182, 237) ;
-    font-family: monospace;
-    font-size: 50px;
-}
-.hotgames img{
-    width: 300px;
-    height: 150px;
-    transition-duration: 1s;
-}
-.hotgames{
-    align-items: center;
-    display: flex;
-    align-items: center;
-}
-.hotgames img:hover{
-    width: 300px;
-    height: 165px;
-}
-.hotgames p{
-    margin-left: 10px;
-
-}
-.hotgames div{
-    width: 290px;
-    height: 170px;
-    
+.Title img {
+  width: 300px;
+  height: 85px;
 }
 
-.hotgames1 img{
-    width: 720px;
-    height: 450px;
-    transition-duration: 0.5s;
-    display: flex;
-    align-items: center;
+.Hot {
+  color: rgb(100, 182, 237);
+  font-family: monospace;
+  font-size: 50px;
 }
-.hotgames1 img:hover{
-    width: 720px;
-    height: 460px;
+.Games {
+  color: white;
+  font-family: monospace;
+  font-size: 50px;
 }
-.hotgames1 div{
-    width: 720px;
-    height: 460px;
+.gamehot {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 60px;
 }
-.freegames img{
-    width:300px ;
-    height: 150px;
-    margin-left: 60px;
-    transition-duration: 0.5s;
-    margin-top: 30px;
+.gamefree {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.freegames{
-    display: flex;
-    flex-wrap: wrap;
+.Free {
+  color: rgb(100, 182, 237);
+  font-family: monospace;
+  font-size: 50px;
 }
-.freegames img:hover{
-    width:315px ;
-    height: 157.5px;
+.hotgames img {
+  width: 300px;
+  height: 150px;
+  transition-duration: 1s;
 }
-.freegames div{
-    width:360px ;
-    height: 250px;
-    
+.hotgames {
+  align-items: center;
+  display: flex;
+  align-items: center;
 }
-.freegames div p{
-    color: white;
-    margin-left: 50px;
-    font-size: 18px;
-    text-align: center;
+.hotgames img:hover {
+  width: 300px;
+  height: 165px;
+}
+.hotgames p {
+  margin-left: 10px;
+}
+.hotgames div {
+  width: 290px;
+  height: 170px;
 }
 
+.hotgames1 img {
+  width: 720px;
+  height: 450px;
+  transition-duration: 0.5s;
+  display: flex;
+  align-items: center;
+}
+.hotgames1 img:hover {
+  width: 720px;
+  height: 460px;
+}
+.hotgames1 div {
+  width: 720px;
+  height: 460px;
+}
+.freegames img {
+  width: 250px;
+  height: auto;
+  transition-duration: 0.5s;
+  margin-top: 30px;
+}
+.freegames {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.freegames img:hover {
+  transform: scale(1.1);
+}
+.freegames div {
+  width: 320px;
+  height: 250px;
+}
+.freegames div p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
 
-
-
-
-
-
-
-input[type=text], input[type=password] {
-    width: 350px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    font-size: 15px;
-  }
-  /* Extra styles for the cancel button */
+input[type="text"],
+input[type="password"] {
+  width: 350px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+/* Extra styles for the cancel button */
 .cancelbtn {
-    width: auto;
-    padding: 0px 18px;
-    background-color: #f44336;
-  }
-  /* Center the image and position the close button */
+  width: auto;
+  padding: 0px 18px;
+  background-color: #f44336;
+}
+/* Center the image and position the close button */
 .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
-}
-  
-  img.avatar {
-    width: 40%;
-    border-radius: 50%;
-  }
-  
-  .container {
-    padding: 16px;
-    text-align: center;
-  }
-  
-  span.psw {
-    float: right;
-    padding-top: 16px;
-  }
-  
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position:fixed ; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    padding-top: 120px;
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #fefefe;
-    margin: 5px 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button (x) */
-  .close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: red;
-    cursor: pointer;
-  }
-  
-  /* Add Zoom Animation */
-  .animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
-  }
-  .container button{
-      width: 75px;
-      height: 25px;
-  }
-
-  .gaming img{
-    width: 680px;
-    height: 420px;
-    margin: 30px 0px 0px 60px;
-  }
-  .gameinfo{
-    width:50%;
-    text-align:left;
-    color:white;
-    background-color: black ;
-    opacity: 0.7;
-    width: 680px;
-    height: 420px;
-    margin: 30px 60px 0px 20px;
-  }
-  .gameinfo button{
-      width: 100px;
-      height: 30px;
-      background-color: rgb(100, 182, 237);
-      
-  }
-  .infogame{
-      font-size: 20px;
-      text-align: left;
-  }
-
-  .info{
-      font-size: 20px;
-      text-align: left;
-      font-family: monospace;
-  }
-
-  .require{
-      display: flex;
-  }
-  .require1{
-      color: white;
-      text-align: center;
-      margin-left: 60px;
-      width: 50%;
-      background-color: black;
-      opacity: 0.7;
-  }
-  .require2{
-    color: white;
-    text-align: center;
-    margin-right: 60px;
-    width: 50%;
-    background-color: black;
-    opacity: 0.7;
-  }
-.trailer{
-   margin: 10px 60px;
-   
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
 }
 
-.htd{
-    
-    margin-left: 60px;
-    text-align: left;
-    color: white;
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
 }
-.htd p{
-    font-size: 20px;
+
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 120px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+.container button {
+  width: 75px;
+  height: 25px;
+}
+
+.gaming img {
+  width: 680px;
+  height: 420px;
+  margin: 30px 0px 0px 60px;
+}
+.gameinfo {
+  width: 50%;
+  text-align: left;
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+  width: 680px;
+  height: 420px;
+  margin: 30px 60px 0px 20px;
+}
+.gameinfo button {
+  outline: none;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(100, 182, 237);
+}
+.infogame {
+  font-size: 20px;
+  text-align: left;
+}
+
+.info {
+  font-size: 20px;
+  text-align: left;
+  font-family: monospace;
+}
+
+.require {
+  display: flex;
+}
+.require1 {
+  color: white;
+  text-align: center;
+  margin-left: 60px;
+  width: 50%;
+  background-color: black;
+  opacity: 0.7;
+}
+.require2 {
+  color: white;
+  text-align: center;
+  margin-right: 60px;
+  width: 50%;
+  background-color: black;
+  opacity: 0.7;
+}
+.trailer {
+  margin: 30px 60px;
+  width: 50%;
+  outline: none;
+}
+
+.htd {
+  width: 50%;
+  margin-right: 60px;
+  margin-top: 50px;
+  text-align: left;
+  color: white;
+  
+}
+.htd p {
+  font-size: 30px;
+  
+}
+.ha{
+  margin: 120px 60px 0px;
+  opacity: 0.9;
+}
+.re h1{
+  text-align: left;
+  color: white;
+  margin-left: 60px;
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(100, 182, 237);
+  padding:0px 50px;
+}
+.hu a{
+  padding: 0px 2px;
+  text-decoration: none;
+  color: black;
+  border-right:1px solid ;
+}
+
+.game_background{
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.game_background:hover{
+  opacity: 0.9    ;
+}
+.game_background{
+  margin: 17px;
 }
