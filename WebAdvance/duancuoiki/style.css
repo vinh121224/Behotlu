@@ -254,12 +254,14 @@ span.psw {
 .infogame {
   font-size: 20px;
   text-align: left;
+  padding-left: 20px;
 }
 
 .info {
   font-size: 20px;
   text-align: left;
   font-family: monospace;
+  padding-left: 20px;
 }
 
 .require {
@@ -336,3 +338,4 @@ span.psw {
 .game_background{
   margin: 17px;
 }
+

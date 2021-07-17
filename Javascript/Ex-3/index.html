@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const apiKey ="Q1xfKqP9Uv5TqJ4W0_uJjSgrfCZKxHbdeYMlzXLn_bo"
+        const url= 'https://api.unsplash.com/photos/?client_id=Q1xfKqP9Uv5TqJ4W0_uJjSgrfCZKxHbdeYMlzXLn_bo'
+        function getRandomImage () {
+            fetch (url,{
+                method : 'GET',
+            })
+            .then(function (result) {
+                console.log (result);
+                return result;
+            })
+            .then (function (result){
+                result.json().then(function(value){
+                    let imgs= '';
+                    const container = document.querySelector('.container');
+                    console.log (value [0]);
+                    for ( let i= 0;i< value.length;i++){
+                        img = imgs + `<img src="$(value(i).urls.small)" alt="">
+                    }
+                })
+            })
+        }
+        getRandomImage()
+    </script>
+</body>
+</html>
