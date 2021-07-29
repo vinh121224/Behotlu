@@ -1,0 +1,56 @@
+.menu{
+    display: flex;
+    align-items: center;
+    background: white;
+}
+.ten{
+    width: 250px;
+    height: 80px;
+    margin: 0px 60px;
+
+}
+button{
+    width: 150px;
+    height: 50px;
+   border: none;
+   background: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   font-size: 25px;
+}
+body{
+    background: whitesmoke;
+}
+.detail{
+    margin: 40px 60px;
+}
+.stlkn{
+    width: 250px;
+    font-size: 20px;
+    background: #0471e7;
+    color: white;
+}
+.review{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #0471e7;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+.writer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tacgia{
+    margin-left: 400px;
+}
+.video{
+
+    width: 560px;
+    height: 315px;
+}

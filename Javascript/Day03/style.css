@@ -1,0 +1,27 @@
+.nav {
+  text-decoration: none;
+  color: black;
+  margin: 0 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body1 {
+  background-color: blue;
+}
+
+.footer {
+  background-color: bisque;
+}
+
+.hello {
+  color: rgb(39, 146, 36);
+}
+
+.test {
+  font-size: 40px;
+  font-style: italic;
+}
