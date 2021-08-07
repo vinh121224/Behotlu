@@ -18,19 +18,16 @@ const danhsach=[
    },
 ];
 function addItem(name1){
-    const nameItem=document.createElement('div');
+    const place=document.createElement('div.place');
+    place.getElementsByClassName('place');
+    const nameItem=document.createElement('h1');
     nameItem.innerText=name1.loaiao;
-    list.appendChild(nameItem);
+    const imgItem=document.createElement('img');
+    imgItem.src=name1.img;
+    place.appendChild(nameItem);
+    place.appendChild(imgItem);
+    list.appendChild(place)
 }
-// function addItem(img1){
-//     const imgItem=document.createElement('div');
-//     imgItem.innerText=img1.img;
-//     list.appendChild(imgItem);
-// }
-
 danhsach.forEach(function(name1){
     addItem(name1)
 });
-// danhsach.forEach(function(img1){
-//     addItem(img1)
-// });

@@ -100,7 +100,7 @@ function addItem() {
     description: descriptionInput.value,
     friends: friendsInput.value,
     image: imageUrlInput.value,
-  };
+  };-
   nameInput.value = '';
   descriptionInput.value = '';
   friendsInput.value = '';
