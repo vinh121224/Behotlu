@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <button><a href="login.html">Login</a></button>
+      <button><a href="index.html">Home</a></button>
+    </div>
+    <div class="content">
+      <div class="register-wrapper">
+        <form class="register-form">
+          <h1>Register form</h1>
+          <label class="label" for="email" >Email</label>
+          <input type="text" id="email" />
+          <label class="label" for="password">Password</label>
+          <input type="password" id="password" />
+          <label class="label" for="re-password">Re-password</label>
+          <input type="password" id="re-password" />
+          <button class="btn" id="register-btn" type="submit">Register</button>
+          <p id="valid-text">Validation</p>
+        </form>
+      </div>
+    </div>
+    <script src='register.js'></script>
+  </body>
+</html>
