@@ -1,3 +1,35 @@
+function saveAccountToLocalStorage(email,password){
+    const AccountPlayList=localStorage.getItem('accounts');
+    if (AccountPlayList===null) {
+      const newAccountPlayList =[
+        {
+          email: email,
+          password: password,
+        },
+      ];
+      localStorage.setItem('accounts', JSON.stringify(newAccountPlayList));
+      location.replace('login.html');
+    } else {
+      const newAccountPlayList = JSON.parse(AccountPlayList);
+      const findAccountIndex = newAccountPlayList.findIndex(function (account) {
+        return account.email === email;
+        
+      });
+      if (findAccountIndex === -1) {
+        newAccountPlayList.push({
+          email: email,
+          password: password,
+        });
+        localStorage.setItem('accounts', JSON.stringify(newAccountPlayList));
+        location.replace('login.html');
+      } else {
+        const existed = document.getElementById('confirm');
+        existed.innerHTML = 'Email existed!';
+        existed.style.display = 'inline';
+        existed.style.color = 'red';
+      }
+    }
+}
 function register(){
     event.preventDefault();
     const emailInput=document.getElementById('email');
@@ -18,35 +50,3 @@ function register(){
 }
     const registerButton=document.getElementById('re-btn')
     registerButton.addEventListener('click',register);
-
-
-function saveAccountToLocalStorage(email,password){
-    const AccountPlayList=localStorage.getItem('accounts');
-    if(AccountPlayList===null){
-        const newAccountPlayList=[
-        {
-            email:email,
-            password:password,
-        }
-        ];
-        localStorage.getItem('accounts',JSON.stringify(newAccountPlayList));
-    }else{
-        const newAccountPlayList=JSON.parse(AccountPlayList);
-        const findUserIndex=newAccountPlayList.findIndex(function (account) {
-      return account.email===email;
-    });
-    if (findUserIndex===-1) {
-      newAccountPlayList.push({
-        email: email,
-        password: password,
-      });
-      localStorage.setItem('accounts',JSON.stringify(newAccountPlayList));
-      location.replace('login.html');
-    } else {
-      const existed = document.getElementById('confirm');
-      existed.innerHTML ='Email existed';
-      existed.style.display='inline';
-      existed.style.color='red';
-        }
-    }
-}

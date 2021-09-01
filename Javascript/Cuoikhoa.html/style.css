@@ -1,0 +1,429 @@
+body {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/30049369/thumb/1.jpg");
+  background-attachment: fixed;
+  background-size:cover ;
+  background-repeat:no-repeat ;
+  animation-name: animate;
+  animation-direction:alternate-reverse ;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state:running ;
+  animation-timing-function: ease-in-out;
+
+}
+@keyframes animate{
+  0%{
+    background-image: url("./img/bg1.jpg");
+  }
+  20%{
+    background-image: url("./img/bg2.jpg");
+  }
+  40%{
+    background-image: url("./img/bg3.jpg");
+  }
+  60%{
+    background-image: url("./img/bg4.jpg");
+  }
+
+  80%{
+    background-image: url("./img/bg5.jpg");
+  }
+  100%{
+    background-image: url("./img/bg6.jpg");
+  }
+}
+
+.Home {
+  background-color: rgb(100, 182, 237);
+}
+.face{
+  padding: 0px 10px 0px 18px;
+  width: 30px;
+  height: 30px;
+}
+.ins{
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.you{
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.qi{
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  margin: 40px 150px 0px;
+  padding: 15px 0px;
+  background-color:black ;
+  opacity: 0.9;
+}
+
+.search p{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.search-bar input{
+  width: 370px;
+  height: 50px;
+  outline: none;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+.search-bar button{
+  width: 55px;
+  height: 55px;
+  background-color: rgb(100, 182, 237);
+  border: none;
+}
+.search-bar img{
+  width: 30px;
+  height: 30px;
+}
+.btn {
+  margin:0px 18px 0px 2%;
+ }
+.btn a{
+  color:white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.btn a:hover{
+  color: rgb(100, 182, 237);
+}
+.hard img{
+  width: 30px;
+  height: 30px;
+}
+.hard{
+  display: flex;
+  align-items: center;
+  margin:0px 15px 0px 40px;
+}
+.hard a{
+  font-weight: bold;
+}
+.giohang{
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.giohang a{
+  color: white;
+  text-decoration: none;
+}
+.thongtin{
+  display: flex;
+  align-items: center;
+}
+.thongtin a{
+  color:white;
+  text-decoration: none;
+}
+.dangki {
+  display: flex;
+  align-items: center;
+  margin: 0px 150px;
+  background: black;
+  opacity: 0.9;
+  padding-bottom: 15px;
+  box-shadow:transparent;
+}
+.nav-bar a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 0px 15px;
+  font-weight: bold;
+}
+.nav-bar a :hover {
+  padding: 0px 100px;
+  background-color: rgb(100, 182, 237);
+}
+.dangki a:hover {
+  color: rgb(100, 182, 237);
+}
+.contact{
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.Title {
+  width: 150px;
+  height: 50px;
+}
+.Hot {
+  color: rgb(100, 182, 237);
+  font-family: monospace;
+  font-size: 50px;
+}
+.Games {
+  color: white;
+  font-family: monospace;
+  font-size: 50px;
+}
+.gamehot {
+  display: flex;
+  margin:0px 150px;
+  padding-left: 30px;
+  background-color: black;
+  opacity: 0.9;
+}
+.gamefree {
+  display: flex;
+  justify-content: center;
+  margin: 0px 150px;
+  background-color: black;
+  opacity: 0.9;
+}
+.Free {
+  color: rgb(100, 182, 237);
+  font-family: monospace;
+  font-size: 50px;
+}
+.hotgames img {
+  width: 280px;
+  height: 150px;
+  transition-duration: 1s;
+}
+.hotgames {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+  padding-left: 30px;
+}
+.hotgames img:hover {
+  width: 300px;
+  height: 165px;
+}
+.hotgames p {
+  margin-left: 10px;
+}
+.hotgames div {
+  width: 290px;
+  height: 170px;
+}
+
+.hotgames1 img {
+  width: 540px;
+  height: 450px;
+  transition-duration: 0.5s;
+  display: flex;
+  align-items: center;
+}
+.hotgames1 img:hover {
+  width: 540px;
+  height: 460px;
+}
+.hotgames1 div {
+  width: 540px;
+  height: 460px;
+}
+.freegames img {
+  width: 200px;
+  height: auto;
+  transition-duration: 0.5s;
+  margin-top: 30px;
+}
+.freegames {
+  margin: 0px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.9;
+}
+.freegames img:hover {
+  transform: scale(1.1);
+}
+.freegames div {
+  width: 250px;
+  height: 200px;
+  
+}
+.freegames div p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+.container button {
+  width: 75px;
+  height: 25px;
+}
+.gaming{
+  margin: 0px 150px;
+}
+.gaming h1{
+  color: white;
+  border-bottom: 4px solid rgb(100, 182, 237) ;
+}
+.gaming img {
+  padding:30px 0px 0px 30px;
+  width: 550px;
+  height: 400px;
+}
+.div-gameinfo{
+  display: flex;
+  background-color: black;
+  opacity: 0.9;
+}
+.gameinfo{
+  width: 50%;
+}
+.gameinfo1 {
+  width: 50%;
+  text-align: left;
+  padding-right: 30px;
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+  height: 400px;
+}
+.gameinfo1 button {
+  outline: none;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(100, 182, 237);
+}
+.infogame {
+  font-size: 15px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.info {
+  font-size: 16px;
+  text-align: left;
+  font-family: monospace;
+  padding-left: 20px;
+}
+.system{
+  text-align: center;
+  color: rgb(100, 182, 237);margin:30px 0;
+  padding: 30px 0px;
+  margin:0px 150px;
+  background-color: black;
+  opacity: 0.9;
+}
+.require {
+  display: flex;
+}
+.require1 {
+  color: white;
+  text-align: center;
+  margin-left: 150px;
+  width: 50%;
+  background-color: black;
+  opacity: 0.9;
+}
+.require2 {
+  color: white;
+  text-align: center;
+  margin-right: 150px;
+  width: 50%;
+  background-color: black;
+  opacity: 0.9;
+}
+.show{
+  display: flex;
+  margin: 0px 150px;
+  background-color: black;
+  opacity: 0.9;
+}
+.trailer {
+  margin: 30px 60px 0px 0px;
+  width: 50%;
+  outline: none;
+}
+
+.htd {
+  width: 50%;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  
+}
+.htd p {
+  font-size: 20px;
+  
+}
+.ha{
+  margin: 120px 150px 0px;
+  opacity: 0.9;
+}
+.ha h2{
+  color: white;
+}
+.ha p{
+  color: white;
+}
+.freegames h1{
+  text-align: left;
+  color: white;
+  margin-left: 150px;
+}
+.system2{
+  color: rgb(100, 182, 237);
+  padding: 30px 0px 30px 30px;
+  margin:0px 150px;
+  background-color: black;
+  opacity: 0.9;
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding:0px 50px;
+}
+.hu a{
+  padding: 0px 2px;
+  text-decoration: none;
+  color: white;
+  border-right:1px solid ;
+}
+
+.game_background{
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.game_background:hover{
+  opacity: 0.9    ;
+}
+.game_background{
+  margin: 17px;
+}

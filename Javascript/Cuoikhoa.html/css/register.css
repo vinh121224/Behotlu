@@ -1,3 +1,6 @@
+body{
+    background-image:url("https://ak.picdn.net/shutterstock/videos/30049369/thumb/1.jpg") ;
+}
 .form{
     display:flex;
     flex-direction: column;
@@ -8,4 +11,13 @@ a{
 }
 #confirm{
     display: none;
+}
+h1{
+    color:white
+}
+label{
+    color:white;
+}
+button{
+    margin: 10px;
 }
