@@ -1,0 +1,239 @@
+body {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/30049369/thumb/1.jpg");
+  background-attachment: fixed;
+  background-size:cover ;
+  background-repeat:no-repeat ;
+  animation-name: animate;
+  animation-direction:alternate-reverse ;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state:running ;
+  animation-timing-function: ease-in-out;
+
+}
+@keyframes animate{
+  0%{
+    background-image: url("./img/bg1.jpg");
+  }
+  20%{
+    background-image: url("./img/bg2.jpg");
+  }
+  40%{
+    background-image: url("./img/bg3.jpg");
+  }
+  60%{
+    background-image: url("./img/bg4.jpg");
+  }
+
+  80%{
+    background-image: url("./img/bg5.jpg");
+  }
+  100%{
+    background-image: url("./img/bg6.jpg");
+  }
+}
+
+.Home {
+  background-color: rgb(100, 182, 237);
+}
+.face{
+  padding: 0px 10px 0px 18px;
+  width: 30px;
+  height: 30px;
+}
+.ins{
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.you{
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.qi{
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  margin: 40px 150px 0px;
+  padding: 15px 0px;
+  background-color:black ;
+  opacity: 0.9;
+}
+
+.search p{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.search-bar input{
+  width: 370px;
+  height: 50px;
+  outline: none;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+.search-bar button{
+  width: 55px;
+  height: 55px;
+  background-color: rgb(100, 182, 237);
+  border: none;
+}
+.search-bar img{
+  width: 30px;
+  height: 30px;
+}
+.btn {
+  margin:0px 18px 0px 2%;
+ }
+.btn a{
+  color:white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.btn a:hover{
+  color: rgb(100, 182, 237);
+}
+.hard img{
+  width: 30px;
+  height: 30px;
+}
+.hard{
+  display: flex;
+  align-items: center;
+  margin:0px 15px 0px 40px;
+}
+.hard a{
+  font-weight: bold;
+}
+.giohang{
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.giohang a{
+  color: white;
+  text-decoration: none;
+}
+.thongtin{
+  display: flex;
+  align-items: center;
+}
+.thongtin a{
+  color:white;
+  text-decoration: none;
+}
+.dangki {
+  display: flex;
+  align-items: center;
+  margin: 0px 150px;
+  background: black;
+  opacity: 0.9;
+  padding-bottom: 15px;
+  box-shadow:transparent;
+}
+.nav-bar a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 0px 15px;
+  font-weight: bold;
+}
+.nav-bar a :hover {
+  padding: 0px 100px;
+  background-color: rgb(100, 182, 237);
+}
+.dangki a:hover {
+  color: rgb(100, 182, 237);
+}
+.contact{
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.Title {
+  width: 150px;
+  height: 50px;
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  margin: 0px 150px;
+  padding:30px 50px;
+}
+.footer-container img{
+  margin-top: 15px;
+}
+.hu a{
+  padding: 0px 2px;
+  text-decoration: none;
+  color: white;
+  border-right:1px solid ;
+}
+
+.t a{
+  text-decoration: none;
+  color: rgb(100, 182, 237);
+}
+.t{
+  margin-top: 10px;
+}
+
+.form{
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  margin: 0px 150px;
+}
+.dangnhap{
+  margin: 0px 150px;
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+
+}
+.dangnhap h1{
+  padding-top: 20px;
+  margin: 0px 30px 0px 30px;
+  border-bottom: 4px solid rgb(100, 182, 237);
+}
+.form{
+  text-align: center;
+  padding: 30px 0px;
+}
+.form label{
+  font-size: 20px;
+}
+.tl{
+  margin-top: 30px;
+}
+.form input{
+  width: 400px;
+  height: 30px;
+}
+.form button{
+  width: 100px;
+  height: 30px;
+  margin-top: 30px;
+}
+#login-btn{
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+}
+#re-btn{
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+}
