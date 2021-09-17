@@ -32,7 +32,7 @@ body {
   100%{
     background-image: url("./img/bg6.jpg");
   }
-}
+}.contact
 .Home {
   background-color: rgb(100, 182, 237);
 }
@@ -62,7 +62,6 @@ body {
   margin: 40px 150px 0px;
   padding: 15px 0px;
   background-color:black ;
-  opacity: 0.9;
 }
 
 .search p{
@@ -91,12 +90,12 @@ body {
   height: 30px;
 }
 .btn {
-  margin:0px 18px 0px 2%;
+  margin:0px 18px 0px 0px;
  }
 .btn a{
   color:white;
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 14px;
   font-weight: bold;
 }
 .btn a:hover{
@@ -109,7 +108,7 @@ body {
 .hard{
   display: flex;
   align-items: center;
-  margin:0px 15px 0px 40px;
+  margin:0px 18px 0px 60px;
 }
 .hard a{
   font-weight: bold;
@@ -136,7 +135,6 @@ body {
   align-items: center;
   margin: 0px 150px;
   background: black;
-  opacity: 0.9;
   padding-bottom: 15px;
   box-shadow:transparent;
 }
@@ -147,13 +145,24 @@ body {
   color: white;
   font-size: 17px;
   text-decoration: none;
-  padding: 0px 15px;
+  padding: 0px 16px;
   font-weight: bold;
 }
 .nav-bar a :hover {
   padding: 0px 100px;
 }
 .dangki a:hover {
+  color: rgb(100, 182, 237);
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn a:hover{
   color: rgb(100, 182, 237);
 }
 
@@ -165,8 +174,10 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: #f9f9f9;
   min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
@@ -175,17 +186,26 @@ body {
   text-decoration: none;
   display: block;
 }
+.dropdown-content a:hover {background-color: #f1f1f1}
 
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .contact{
   padding-left: 10px;
   padding-right: 20px;
 }
-.Title {
-  width: 150px;
-  height: 50px;
+.top {
+ color: rgb(100, 182, 237);
+ font-size: 40px;
+ font-family: monospace;
+ background-color: black;
+ margin:0px 150px;
+}
+.top h1{
+  text-align: center;
+  margin:0px;
+  padding:20px 0px;
 }
 .Hot {
   color: rgb(100, 182, 237);
@@ -202,19 +222,20 @@ body {
   margin:0px 150px;
   padding-left: 30px;
   background-color: black;
-  opacity: 0.9;
 }
 .gamefree {
   display: flex;
   justify-content: center;
   margin: 0px 150px;
   background-color: black;
-  opacity: 0.9;
 }
 .Free {
   color: rgb(100, 182, 237);
   font-family: monospace;
   font-size: 50px;
+}
+.hg{
+  display: flex;
 }
 .hotgames img {
   width: 280px;
@@ -226,7 +247,6 @@ body {
   display: flex;
   align-items: center;
   background-color: black;
-  opacity: 0.9;
   padding-left: 30px;
 }
 .hotgames img:hover {
@@ -235,6 +255,8 @@ body {
 }
 .hotgames p {
   margin-left: 10px;
+  color: white;
+  font-size: 14px;
 }
 .hotgames div {
   width: 290px;
@@ -257,8 +279,8 @@ body {
   height: 460px;
 }
 .freegames img {
-  width: 200px;
-  height: auto;
+  width: 230px;
+  height: 140px;
   transition-duration: 0.5s;
   margin-top: 30px;
 }
@@ -268,14 +290,13 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   background-color: black;
-  opacity: 0.9;
   padding-bottom: 50px;
 }
 .freegames img:hover {
   transform: scale(1.1);
 }
 .freegames div {
-  width: 250px;
+  width: 265px;
   height: 200px;
   
 }
@@ -284,8 +305,6 @@ body {
   font-size: 18px;
   text-align: center;
 }
-
-
 img.avatar {
   width: 40%;
   border-radius: 50%;
@@ -314,7 +333,6 @@ img.avatar {
 .div-gameinfo{
   display: flex;
   background-color: black;
-  opacity: 0.9;
 }
 .gameinfo{
   width: 50%;
@@ -325,7 +343,6 @@ img.avatar {
   padding-right: 30px;
   color: white;
   background-color: black;
-  opacity: 0.9;
   height: 400px;
 }
 .gameinfo1 button {
@@ -352,7 +369,6 @@ img.avatar {
   padding: 30px 0px;
   margin:0px 150px;
   background-color: black;
-  opacity: 0.9;
 }
 .require {
   display: flex;
@@ -363,7 +379,6 @@ img.avatar {
   margin-left: 150px;
   width: 50%;
   background-color: black;
-  opacity: 0.9;
 }
 .require2 {
   color: white;
@@ -371,30 +386,6 @@ img.avatar {
   margin-right: 150px;
   width: 50%;
   background-color: black;
-  opacity: 0.9;
-}
-.show{
-  display: flex;
-  margin: 0px 150px;
-  background-color: black;
-  opacity: 0.9;
-}
-.trailer {
-  margin: 30px 60px 0px 0px;
-  width: 50%;
-  outline: none;
-}
-
-.htd {
-  width: 50%;
-  margin-top: 30px;
-  text-align: center;
-  color: white;
-  
-}
-.htd p {
-  font-size: 20px;
-  
 }
 .freegames h1{
   text-align: left;
@@ -406,14 +397,12 @@ img.avatar {
   padding: 30px 0px 30px 30px;
   margin:0px 150px;
   background-color: black;
-  opacity: 0.9;
 }
 .footer-container{
   display: flex;
   justify-content: center;
   background-color: black;
   color: white;
-  opacity: 0.9;
   margin: 0px 150px;
   padding:30px 50px;
 }
@@ -426,20 +415,19 @@ img.avatar {
   color: white;
   border-right:1px solid ;
 }
-
+.hu a:hover{
+ color: rgb(100, 182, 237);
+}
 .game_background{
   opacity: 0.8;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px 17px;
 }
 .game_background:hover{
   opacity: 0.9    ;
-}
-.game_background{
-  margin: 17px;
 }
 .t a{
   text-decoration: none;
@@ -452,11 +440,65 @@ img.avatar {
   margin: 0px 150px;
   color: white;
   background-color: black;
-  opacity: 0.9;
 
 }
 .dangnhap h1{
   padding-top: 20px;
   margin: 0px 30px 0px 30px;
   border-bottom: 4px solid rgb(100, 182, 237);
+}
+#check-btn{
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  font-size:13px ;
+}
+.dr{
+  width: 95%;
+  height: 600px;
+  padding:30px 0px 10px 30px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: 0px 150px;
+  background-color: black;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 2s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
