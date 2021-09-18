@@ -30,6 +30,7 @@ function getGametoHTML(){
     category.textContent ='Thể Loại : '+ gaming.Category;
     const Add=document.createElement('button');
     Add.innerText='Thêm Vào Giỏ Hàng';
+    Add.className='add-cart';
     const trailer=document.createElement('iframe')
     trailer.src=gaming.vid;
     const detail2 =document.createElement('div');
@@ -94,3 +95,4 @@ function getGametoHTML(){
 
 }
 getGametoHTML()
+

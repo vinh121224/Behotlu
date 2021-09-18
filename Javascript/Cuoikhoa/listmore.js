@@ -44,6 +44,10 @@ function PrintToHtml(thongtin) {
   name.textContent = thongtin.game;
   const img = document.createElement('img');
   img.src = thongtin.img;
+  img.className="image";
+  const add=document.createElement('a')
+  add.className='add-cart';
+  add.innerText='Thêm vào giỏ';
   const createdAt = document.createElement('p');
   createdAt.textContent = thongtin.date;
   const storage = document.createElement('p');
@@ -58,6 +62,7 @@ function PrintToHtml(thongtin) {
   };
 
   game.appendChild(img);
+  game.appendChild(add);
   game.appendChild(name);
   game.appendChild(button);
   danhsachgame.appendChild(game);

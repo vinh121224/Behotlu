@@ -6,6 +6,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256810256/movie480_vp9.webm?t=1611326498',
+    price: 15,
+    inCart:0,
   },
   {
     game: 'HITMAN 2',
@@ -14,6 +16,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,TPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256738783/movie480.webm?t=1545171866',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'REMANT: FROM THE ASHES',
@@ -22,6 +26,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,TPS,ShootingGame,Survival',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256747605/movie480.webm?t=1554857990',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'KILLING FLOOR 2',
@@ -30,6 +36,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame,Survival',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256839903/movie480_vp9.webm?t=1624372781',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'MAFIA DEFINITIVE EDITION',
@@ -38,6 +46,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256801143/movie480_vp9.webm?t=1606265680',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'DEVIL MAY CRY 5',
@@ -46,6 +56,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256815511/movie480_vp9.webm?t=1608599382',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'WATCH DOG 2',
@@ -54,6 +66,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256675152/movie480.webm?t=1479834207',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'GRAND THIEF AUTO V',
@@ -62,6 +76,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256757115/movie480.webm?t=1563930864',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'SEKIRO SHADOW DIE TWICE',
@@ -70,6 +86,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256806899/movie480_vp9.webm?t=1603837979',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'ORI AND THE WILL OF WISPS',
@@ -78,6 +96,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256779902/movie480.webm?t=1585866497',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'AMONG US',
@@ -86,6 +106,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256839073/movie480_vp9.webm?t=1623880864',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'THE WITCHER 3',
@@ -94,6 +116,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256658589/movie480.webm?t=1528288687',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'JUST CAUSE 4',
@@ -102,6 +126,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256765169/movie480.webm?t=1573147937',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'GTA SAN ANDRESS',
@@ -110,6 +136,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/12120/0000003303.1920x1080.jpg?t=1627925349',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'ARK SURVIVAL EVOLED',
@@ -118,6 +146,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256836250/movie480_vp9.webm?t=1622089232',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'JURASSIC WORLD EVOLUTION',
@@ -126,6 +156,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256719788/movie480.webm?t=1530634316',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'CONNAN EXILE',
@@ -134,6 +166,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256800337/movie480_vp9.webm?t=1599739266',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'LEFT 4 DEAD 2',
@@ -142,6 +176,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/5952/movie480.webm?t=1447353587',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'THE DRIFT CHALLENGE',
@@ -150,6 +186,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256754934/movie480_vp9.webm?t=1610706477',
+    inCart:0,
+    price: 15,
   },
   {
     game: 'DARK SOULS 3',
@@ -158,6 +196,8 @@ const danhsach = [
     Storage: '35GB',
     Category: 'Action,Adventure,FPS,ShootingGame',
     vid:'https://cdn.cloudflare.steamstatic.com/steam/apps/256663134/movie480.webm?t=1511366737',
+    inCart:0,
+    price: 15,
   },
 ];
 const danhsachgame = document.querySelector('div.freegames');
@@ -170,13 +210,21 @@ function PrintToHtml(thongtin) {
   game.className='game_background';
   const name = document.createElement('p');
   name.textContent = thongtin.game;
+  name.className='name';
   const img = document.createElement('img');
   img.src = thongtin.img;
+  img.className="image";
+  const add=document.createElement('a')
+  add.className='add-cart';
+  add.innerText='Thêm vào giỏ';
   const createdAt = document.createElement('p');
   createdAt.textContent = thongtin.date;
   const storage = document.createElement('p');
   storage.textContent = thongtin.Storage;
   const category = document.createElement('p');
+  const price=document.createElement("p")
+  price.innerText="$"+thongtin.price;
+  price.className='price';
   category.textContent = thongtin.Category;
   const button = document.createElement('button');
   button.id = 'check-btn';
@@ -186,7 +234,9 @@ function PrintToHtml(thongtin) {
   };
 
   game.appendChild(img);
+  game.appendChild(add);
   game.appendChild(name);
+  game.appendChild(price);
   game.appendChild(button);
   danhsachgame.appendChild(game);
 }
@@ -211,5 +261,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 4000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000);
 }
+
+
